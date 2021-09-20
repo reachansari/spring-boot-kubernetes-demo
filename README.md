@@ -45,11 +45,11 @@ GET -> `http://localhost:<nodePort>/hello` - This will return a simple msg 'Welc
 
 
 # Libraries used
-Spring Boot
-Spring Configuration
-Spring REST Controller
-Minikube or Docker Desktop
-Development Tools
+-  Spring Boot
+-  Spring Configuration
+-  Spring REST Controller
+-  Minikube or Docker Desktop
+-  Development Tools
 
 # Compilation Command
 `mvn clean install` - Plain maven clean and install
