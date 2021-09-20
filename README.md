@@ -38,18 +38,17 @@ kubectl describe deployments
 kubectl describe rs
 
 # Verify
-Please get the running port from `kubectl get services'
+Please get the running node port from `kubectl get services'
 
 
-GET -> http://localhost:<port>/hello - This will return a simple msg 'Welcome to my first k8s controller'
+GET -> http://localhost:<nodePort>/hello - This will return a simple msg 'Welcome to my first k8s controller'
 
 
 # Libraries used
 Spring Boot
 Spring Configuration
 Spring REST Controller
-Spring JPA
-H2
+Minikube or Docker Desktop
 Development Tools
 
 #Compilation Command
