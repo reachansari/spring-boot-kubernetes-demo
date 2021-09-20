@@ -41,7 +41,7 @@ kubectl describe rs
 Please get the running node port from `kubectl get services'
 
 
-GET -> http://localhost:<nodePort>/hello - This will return a simple msg 'Welcome to my first k8s controller'
+GET -> `http://localhost:<nodePort>/hello` - This will return a simple msg 'Welcome to my first k8s controller'
 
 
 # Libraries used
@@ -51,5 +51,5 @@ Spring REST Controller
 Minikube or Docker Desktop
 Development Tools
 
-#Compilation Command
+# Compilation Command
 `mvn clean install` - Plain maven clean and install
