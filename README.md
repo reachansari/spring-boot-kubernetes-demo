@@ -9,7 +9,7 @@ docker build -t springboot-k8s:1.0 .
 
 kubectl run springboot-k8s --image=springboot-k8s:1.0 --port 8080 --image-pull-policy=Never
 
-# Created a service by using the below command
+# Create a service by using the below command
 
 kubectl expose deployment springboot-k8s --type=NodePort
 
