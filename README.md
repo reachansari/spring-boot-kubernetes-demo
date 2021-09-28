@@ -13,9 +13,9 @@ Run spring boot application on kubernetes cluster using imperative commands.
 ## [Compilation command](#compilation-command)
 ```mvn clean package -DskipTests```
 
-## [Create a docker image by using the below command](#create-docker-image)
-
-docker build -t springboot-k8s:1.0 .
+## [Imperative commands for kubernetes](#imperative-commands)
+> Create a docker image
+```docker build -t springboot-k8s:1.0 .```
 
 # Create a deployment by using the below command
 
