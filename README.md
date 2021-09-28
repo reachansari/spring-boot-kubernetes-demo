@@ -30,11 +30,11 @@ Run spring boot application on kubernetes cluster using imperative commands.
 
 ```kubectl scale --replicas=3 deployment/springboot-k8s```
 
-> Command to see a list of Pods
+> Command to see a list of pods
 
 ```kubectl get pods```
 
-> Command to see a list of Deployments
+> Command to see a list of deployments
 
 ```kubectl get deployments```
 
@@ -50,7 +50,7 @@ Run spring boot application on kubernetes cluster using imperative commands.
 
 ```kubectl describe rs```
 
-# Verify
+## [Verify](#verify)
 Please get the running node port from `kubectl get services'
 
 
