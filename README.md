@@ -1,6 +1,7 @@
 ![](./img/image.PNG)
-# spring-boot-kubernetes-demo
-This project depicts the Spring Boot Example with deployment in kubernetes environment using only imperative commands.
+
+## [spring-boot-kubernetes-demo](#spring-boot-kubernetes-demo)
+Run spring boot application on kubernetes cluster using imperative commands.
 
 # Create a docker image by using the below command
 
