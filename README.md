@@ -1,4 +1,4 @@
-![](./img/image.png)
+![](./img/image.PNG)
 # spring-boot-kubernetes-demo
 This project depicts the Spring Boot Example with deployment in kubernetes environment using only imperative commands.
 
