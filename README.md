@@ -3,7 +3,17 @@
 ## [spring-boot-kubernetes-demo](#spring-boot-kubernetes-demo)
 Run spring boot application on kubernetes cluster using imperative commands.
 
-# Create a docker image by using the below command
+## [Prerequisite / Libraries used](#Prerequisite)
+* Docker and kubernetes cluster
+* kubectl
+* Spring Boot
+* Spring Configuration
+* Spring REST Controller
+
+## [Compilation command](#compilation-command)
+```mvn clean package -DskipTests```
+
+## [Create a docker image by using the below command](#create-docker-image)
 
 docker build -t springboot-k8s:1.0 .
 
